@@ -15,3 +15,14 @@ caso contrário seu programa apresentará a mensagem: "Presentation Error".
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1004
 
 # Escreva sua solução abaixo
+# Lê o primeiro valor inteiro
+valor1 = int(input())
+
+# Lê o segundo valor inteiro
+valor2 = int(input())
+
+# Calcula o produto
+PROD = valor1 * valor2
+
+# Imprime o resultado formatado
+print(f"PROD = {PROD}")
