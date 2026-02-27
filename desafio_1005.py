@@ -18,3 +18,17 @@ de imprimir o fim de linha após o resultado, caso contrário, você receberá
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1005
 
 # Escreva sua solução abaixo
+# Lê as duas notas como ponto flutuante
+nota_A = float(input())
+nota_B = float(input())
+
+# Calcula a média ponderada
+# (nota A * peso A + nota B * peso B) / soma dos pesos
+MEDIA = ((nota_A * 3.5) + (nota_B * 7.5)) / 11.0
+
+# Imprime o resultado formatado com 5 casas decimais (para garantir uma no final)
+# O problema pede 5 casas após o ponto, mas o exemplo mostra 1.
+# Vamos seguir o padrão de 5 casas para evitar erro de arredondamento antes da formatação final.
+# Se o Beecrowd der "Presentation Error" por conta disso,
+# o ideal é formatar para 1 casa decimal como no exemplo.
+print(f"MEDIA = {MEDIA:.5f}")
