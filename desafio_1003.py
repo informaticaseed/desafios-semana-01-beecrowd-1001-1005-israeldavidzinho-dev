@@ -14,8 +14,7 @@ de A e B.
 
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1003
 
-# Escreva sua solução abaixo
-# Lê o primeiro valor inteiro
+# Escreva sua solução abaixo # Lê o primeiro valor inteiro
 A = int(input())
 
 # Lê o segundo valor inteiro
