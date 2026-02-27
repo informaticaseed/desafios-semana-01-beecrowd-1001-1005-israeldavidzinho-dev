@@ -12,9 +12,14 @@ você receberá "Presentation Error".
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1001
 
 # Escreva sua solução abaixo
+# Lê o primeiro valor inteiro
 A = int(input())
+
+# Lê o segundo valor inteiro
 B = int(input())
 
+# Efetua a soma
 X = A + B
 
+# Imprime o resultado formatado
 print(f"X = {X}")
